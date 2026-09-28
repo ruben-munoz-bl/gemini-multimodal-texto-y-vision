@@ -1,0 +1,344 @@
+{
+  "modelo": "gemini-3.5-flash-lite",
+  "metricas": {
+    "textos_totales": 10,
+    "textos_evaluados": 10,
+    "idioma": {
+      "aciertos": 10,
+      "evaluados": 10,
+      "precision": 1.0
+    },
+    "sentimiento": {
+      "aciertos": 10,
+      "evaluados": 10,
+      "precision": 1.0
+    },
+    "entidades": {
+      "precision": 0.8238,
+      "recall": 0.83,
+      "f1": 0.8014,
+      "evaluados": 10
+    },
+    "resumen": {
+      "rouge1_precision": 0.4835,
+      "rouge1_recall": 0.6639,
+      "rouge1_f1": 0.5553,
+      "evaluados": 10
+    },
+    "por_tipo": {
+      "noticia": {
+        "textos": 4,
+        "precision_idioma": 1.0,
+        "precision_sentimiento": 1.0,
+        "entidades_f1": 0.7202,
+        "rouge1_f1": 0.614
+      },
+      "resena": {
+        "textos": 3,
+        "precision_idioma": 1.0,
+        "precision_sentimiento": 1.0,
+        "entidades_f1": 0.8889,
+        "rouge1_f1": 0.4133
+      },
+      "email": {
+        "textos": 3,
+        "precision_idioma": 1.0,
+        "precision_sentimiento": 1.0,
+        "entidades_f1": 0.8222,
+        "rouge1_f1": 0.6191
+      }
+    }
+  },
+  "detalles": [
+    {
+      "fichero": "text1.txt",
+      "tipo": "noticia",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "neutral",
+        "esperado": "neutral",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 7,
+        "entidades_esperadas": 5,
+        "aciertos": 4,
+        "precision": 0.5714,
+        "recall": 0.8,
+        "f1": 0.6667
+      },
+      "resumen": {
+        "rouge1_precision": 0.4118,
+        "rouge1_recall": 0.7,
+        "rouge1_f1": 0.5185,
+        "predicho": "El Ayuntamiento de Valencia inauguró este martes la nueva línea 10 de Metrovalencia, valorada en 320 millones de euros, para conectar Benimaclet con el aeropuerto y reducir el tiempo de viaje en un 25%.",
+        "esperado": "Valencia inaugura la línea 10 de Metrovalencia, que unirá Benimaclet con el aeropuerto y reducirá el tiempo de viaje."
+      }
+    },
+    {
+      "fichero": "text2.txt",
+      "tipo": "resena",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "negativo",
+        "esperado": "negativo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 1,
+        "entidades_esperadas": 1,
+        "aciertos": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "resumen": {
+        "rouge1_precision": 0.2941,
+        "rouge1_recall": 0.3846,
+        "rouge1_f1": 0.3333,
+        "predicho": "Un cliente insatisfecho de La Trattoria del Centro critica que, tras pagar 80 euros, esperó más de una hora, la pasta llegó fría y el servicio fue pésimo, por lo que no volverá.",
+        "esperado": "Mala experiencia en La Trattoria del Centro: larga espera, comida fría y mal servicio; el cliente no piensa volver."
+      }
+    },
+    {
+      "fichero": "text3.txt",
+      "tipo": "email",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "neutral",
+        "esperado": "neutral",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 3,
+        "entidades_esperadas": 3,
+        "aciertos": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "resumen": {
+        "rouge1_precision": 0.6667,
+        "rouge1_recall": 0.8889,
+        "rouge1_f1": 0.7619,
+        "predicho": "Laura Gómez, del departamento de compras de Talavera Soluciones, solicita un presupuesto actualizado para 50 portátiles antes del 15 de noviembre.",
+        "esperado": "El departamento de compras de Talavera Soluciones pide un presupuesto para 50 portátiles antes del 15 de noviembre."
+      }
+    },
+    {
+      "fichero": "text4.txt",
+      "tipo": "noticia",
+      "idioma": {
+        "predicho": "en",
+        "esperado": "en",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "neutral",
+        "esperado": "neutral",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 4,
+        "entidades_esperadas": 3,
+        "aciertos": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "resumen": {
+        "rouge1_precision": 0.4211,
+        "rouge1_recall": 0.7273,
+        "rouge1_f1": 0.5333,
+        "predicho": "Barcelona acogerá el próximo mes de marzo el Foro Europeo de Movilidad en la Fira de Montjuïc, reuniendo a más de 5.000 asistentes de 30 países para debatir sobre vehículos eléctricos y transporte público.",
+        "esperado": "Barcelona acogerá en marzo el European Mobility Forum, con más de 5.000 asistentes de 30 países en la Fira de Montjuïc."
+      }
+    },
+    {
+      "fichero": "text5.txt",
+      "tipo": "resena",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "positivo",
+        "esperado": "positivo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 2,
+        "entidades_esperadas": 2,
+        "aciertos": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "resumen": {
+        "rouge1_precision": 0.6154,
+        "rouge1_recall": 0.6667,
+        "rouge1_f1": 0.64,
+        "predicho": "La lectora está encantada con la novela contemporánea El viento sobre el lago de Clara Montes debido a sus increíbles personajes y su impactante final.",
+        "esperado": "Reseña muy positiva de la novela El viento sobre el lago, de Clara Montes, con personajes memorables y un final impactante."
+      }
+    },
+    {
+      "fichero": "text6.txt",
+      "tipo": "email",
+      "idioma": {
+        "predicho": "en",
+        "esperado": "en",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "negativo",
+        "esperado": "negativo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 1,
+        "entidades_esperadas": 2,
+        "aciertos": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "resumen": {
+        "rouge1_precision": 0.3529,
+        "rouge1_recall": 0.5455,
+        "rouge1_f1": 0.4286,
+        "predicho": "John Miller reclama un reembolso total por el pedido 45219, que llegó con tres días de retraso y dos artículos dañados, advirtiendo que disputará el cargo si no se resuelve.",
+        "esperado": "Cliente que reclama el pedido 45219: entrega con retraso y productos dañados, exige reembolso o contracargo."
+      }
+    },
+    {
+      "fichero": "text7.txt",
+      "tipo": "noticia",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "positivo",
+        "esperado": "positivo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 4,
+        "entidades_esperadas": 3,
+        "aciertos": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "resumen": {
+        "rouge1_precision": 0.7368,
+        "rouge1_recall": 0.9333,
+        "rouge1_f1": 0.8235,
+        "predicho": "El equipo nacional de atletismo conquistó cuatro medallas en el Campeonato de Europa de pista cubierta en Apeldoorn, destacando la plusmarca nacional de Lucía Herrera en los 800 metros con 1:59.4 este sábado.",
+        "esperado": "El equipo nacional logra cuatro medallas en el Campeonato de Europa de pista cubierta de Apeldoorn, con plusmarca de Lucía Herrera en 800 metros."
+      }
+    },
+    {
+      "fichero": "text8.txt",
+      "tipo": "resena",
+      "idioma": {
+        "predicho": "en",
+        "esperado": "en",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "negativo",
+        "esperado": "negativo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 1,
+        "entidades_esperadas": 2,
+        "aciertos": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "resumen": {
+        "rouge1_precision": 0.2,
+        "rouge1_recall": 0.4,
+        "rouge1_f1": 0.2667,
+        "predicho": "Un usuario se queja de que compró los auriculares Nova X2 hace tres semanas, el auricular izquierdo ya no funciona y el servicio de atención al cliente tardó una semana en responder sin ofrecer ningún reemplazo.",
+        "esperado": "Reseña negativa de los auriculares Nova X2: avería en tres semanas y soporte que no ofrece sustitución."
+      }
+    },
+    {
+      "fichero": "text9.txt",
+      "tipo": "email",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "positivo",
+        "esperado": "positivo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 3,
+        "entidades_esperadas": 2,
+        "aciertos": 2,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "resumen": {
+        "rouge1_precision": 0.6364,
+        "rouge1_recall": 0.7,
+        "rouge1_f1": 0.6667,
+        "predicho": "Andrés Puente agradece al equipo de soporte de BitAlive la rápida solución del fallo en su cuenta ayer.",
+        "esperado": "Andrés Puente agradece al soporte de BitAlive haber resuelto rápido el fallo de su cuenta."
+      }
+    },
+    {
+      "fichero": "text10.txt",
+      "tipo": "noticia",
+      "idioma": {
+        "predicho": "en",
+        "esperado": "en",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "neutral",
+        "esperado": "neutral",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 2,
+        "entidades_esperadas": 2,
+        "aciertos": 1,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "resumen": {
+        "rouge1_precision": 0.5,
+        "rouge1_recall": 0.6923,
+        "rouge1_f1": 0.5806,
+        "predicho": "El ayuntamiento de Ámsterdam anunció un plan ciclista dotado con 18 millones de euros para añadir 12.000 plazas de aparcamiento para 2028 y reducir el desorden en las aceras del centro histórico.",
+        "esperado": "El ayuntamiento de Amsterdam anuncia un plan ciclista con 12.000 plazas nuevas antes de 2028 para despejar las aceras del centro."
+      }
+    }
+  ]
+}

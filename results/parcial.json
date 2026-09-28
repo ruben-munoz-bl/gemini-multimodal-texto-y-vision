@@ -1,0 +1,655 @@
+{
+  "modelo": "gemini-3.5-flash-lite",
+  "resultados": [
+    {
+      "fichero": "text1.txt",
+      "idioma": {
+        "idioma": "es",
+        "nombre": "Español",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "Ayuntamiento de Valencia",
+            "categoria": "ORGANIZACION"
+          },
+          {
+            "texto": "este martes",
+            "categoria": "FECHA"
+          },
+          {
+            "texto": "línea 10",
+            "categoria": "PRODUCTO"
+          },
+          {
+            "texto": "Metrovalencia",
+            "categoria": "ORGANIZACION"
+          },
+          {
+            "texto": "Benimaclet",
+            "categoria": "LUGAR"
+          },
+          {
+            "texto": "aeropuerto",
+            "categoria": "LUGAR"
+          },
+          {
+            "texto": "María Campos",
+            "categoria": "PERSONA"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "neutral",
+        "confianza": 0.95
+      },
+      "resumen": {
+        "resumen": "El Ayuntamiento de Valencia inauguró este martes la nueva línea 10 de Metrovalencia, valorada en 320 millones de euros, para conectar Benimaclet con el aeropuerto y reducir el tiempo de viaje en un 25%.",
+        "frases_clave": [
+          "Línea 10 de Metrovalencia",
+          "320 millones de euros",
+          "María Campos"
+        ]
+      }
+    },
+    {
+      "fichero": "text2.txt",
+      "idioma": {
+        "idioma": "es",
+        "nombre": "Español",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "La Trattoria del Centro",
+            "categoria": "ORGANIZACION"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "negativo",
+        "confianza": 0.99
+      },
+      "resumen": {
+        "resumen": "Un cliente insatisfecho de La Trattoria del Centro critica que, tras pagar 80 euros, esperó más de una hora, la pasta llegó fría y el servicio fue pésimo, por lo que no volverá.",
+        "frases_clave": [
+          "La Trattoria del Centro",
+          "80 euros",
+          "esperar más de una hora",
+          "pasta fría"
+        ]
+      }
+    },
+    {
+      "fichero": "text3.txt",
+      "idioma": {
+        "idioma": "es",
+        "nombre": "español",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "Talavera Soluciones",
+            "categoria": "ORGANIZACION"
+          },
+          {
+            "texto": "15 de noviembre",
+            "categoria": "FECHA"
+          },
+          {
+            "texto": "Laura Gómez",
+            "categoria": "PERSONA"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "neutral",
+        "confianza": 1.0
+      },
+      "resumen": {
+        "resumen": "Laura Gómez, del departamento de compras de Talavera Soluciones, solicita un presupuesto actualizado para 50 portátiles antes del 15 de noviembre.",
+        "frases_clave": [
+          "Talavera Soluciones",
+          "50 portátiles",
+          "15 de noviembre",
+          "Laura Gómez"
+        ]
+      }
+    },
+    {
+      "fichero": "text4.txt",
+      "idioma": {
+        "idioma": "en",
+        "nombre": "inglés",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "Barcelona",
+            "categoria": "LUGAR"
+          },
+          {
+            "texto": "European Mobility Forum",
+            "categoria": "EVENTO"
+          },
+          {
+            "texto": "next March",
+            "categoria": "FECHA"
+          },
+          {
+            "texto": "Fira de Montjuïc",
+            "categoria": "LUGAR"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "neutral",
+        "confianza": 0.95
+      },
+      "resumen": {
+        "resumen": "Barcelona acogerá el próximo mes de marzo el Foro Europeo de Movilidad en la Fira de Montjuïc, reuniendo a más de 5.000 asistentes de 30 países para debatir sobre vehículos eléctricos y transporte público.",
+        "frases_clave": [
+          "Foro Europeo de Movilidad",
+          "Barcelona el próximo marzo",
+          "más de 5.000 asistentes"
+        ]
+      }
+    },
+    {
+      "fichero": "text5.txt",
+      "idioma": {
+        "idioma": "es",
+        "nombre": "Español",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "El viento sobre el lago",
+            "categoria": "PRODUCTO"
+          },
+          {
+            "texto": "Clara Montes",
+            "categoria": "PERSONA"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "positivo",
+        "confianza": 0.99
+      },
+      "resumen": {
+        "resumen": "La lectora está encantada con la novela contemporánea El viento sobre el lago de Clara Montes debido a sus increíbles personajes y su impactante final.",
+        "frases_clave": [
+          "El viento sobre el lago",
+          "Clara Montes",
+          "literatura contemporánea"
+        ]
+      }
+    },
+    {
+      "fichero": "text6.txt",
+      "idioma": {
+        "idioma": "en",
+        "nombre": "inglés",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "John Miller",
+            "categoria": "PERSONA"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "negativo",
+        "confianza": 0.99
+      },
+      "resumen": {
+        "resumen": "John Miller reclama un reembolso total por el pedido 45219, que llegó con tres días de retraso y dos artículos dañados, advirtiendo que disputará el cargo si no se resuelve.",
+        "frases_clave": [
+          "pedido 45219",
+          "tres días tarde",
+          "dos artículos dañados",
+          "reembolso total",
+          "John Miller"
+        ]
+      }
+    },
+    {
+      "fichero": "text7.txt",
+      "idioma": {
+        "idioma": "es",
+        "nombre": "español",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "este sábado",
+            "categoria": "FECHA"
+          },
+          {
+            "texto": "Campeonato de Europa de pista cubierta",
+            "categoria": "EVENTO"
+          },
+          {
+            "texto": "Apeldoorn",
+            "categoria": "LUGAR"
+          },
+          {
+            "texto": "Lucía Herrera",
+            "categoria": "PERSONA"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "positivo",
+        "confianza": 0.95
+      },
+      "resumen": {
+        "resumen": "El equipo nacional de atletismo conquistó cuatro medallas en el Campeonato de Europa de pista cubierta en Apeldoorn, destacando la plusmarca nacional de Lucía Herrera en los 800 metros con 1:59.4 este sábado.",
+        "frases_clave": [
+          "cuatro medallas",
+          "Apeldoorn",
+          "Lucía Herrera",
+          "1:59.4"
+        ]
+      }
+    },
+    {
+      "fichero": "text8.txt",
+      "idioma": {
+        "idioma": "en",
+        "nombre": "Inglés",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "Nova X2",
+            "categoria": "PRODUCTO"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "negativo",
+        "confianza": 0.99
+      },
+      "resumen": {
+        "resumen": "Un usuario se queja de que compró los auriculares Nova X2 hace tres semanas, el auricular izquierdo ya no funciona y el servicio de atención al cliente tardó una semana en responder sin ofrecer ningún reemplazo.",
+        "frases_clave": [
+          "Nova X2 headphones",
+          "left earcup stopped working",
+          "customer support no replacement"
+        ]
+      }
+    },
+    {
+      "fichero": "text9.txt",
+      "idioma": {
+        "idioma": "es",
+        "nombre": "español",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "BitAlive",
+            "categoria": "ORGANIZACION"
+          },
+          {
+            "texto": "ayer mismo",
+            "categoria": "FECHA"
+          },
+          {
+            "texto": "Andrés Puente",
+            "categoria": "PERSONA"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "positivo",
+        "confianza": 0.99
+      },
+      "resumen": {
+        "resumen": "Andrés Puente agradece al equipo de soporte de BitAlive la rápida solución del fallo en su cuenta ayer.",
+        "frases_clave": [
+          "agradecimiento a soporte",
+          "BitAlive",
+          "fallo resuelto"
+        ]
+      }
+    },
+    {
+      "fichero": "text10.txt",
+      "idioma": {
+        "idioma": "en",
+        "nombre": "inglés",
+        "confianza": 1.0
+      },
+      "entidades": {
+        "entidades": [
+          {
+            "texto": "Amsterdam",
+            "categoria": "LUGAR"
+          },
+          {
+            "texto": "2028",
+            "categoria": "FECHA"
+          }
+        ]
+      },
+      "sentimiento": {
+        "sentimiento": "neutral",
+        "confianza": 0.95
+      },
+      "resumen": {
+        "resumen": "El ayuntamiento de Ámsterdam anunció un plan ciclista dotado con 18 millones de euros para añadir 12.000 plazas de aparcamiento para 2028 y reducir el desorden en las aceras del centro histórico.",
+        "frases_clave": [
+          "Ayuntamiento de Ámsterdam",
+          "12.000 plazas de aparcamiento",
+          "año 2028",
+          "18 millones de euros"
+        ]
+      }
+    }
+  ],
+  "evaluaciones": [
+    {
+      "fichero": "text1.txt",
+      "tipo": "noticia",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "neutral",
+        "esperado": "neutral",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 7,
+        "entidades_esperadas": 5,
+        "aciertos": 4,
+        "precision": 0.5714,
+        "recall": 0.8,
+        "f1": 0.6667
+      },
+      "resumen": {
+        "rouge1_precision": 0.4118,
+        "rouge1_recall": 0.7,
+        "rouge1_f1": 0.5185,
+        "predicho": "El Ayuntamiento de Valencia inauguró este martes la nueva línea 10 de Metrovalencia, valorada en 320 millones de euros, para conectar Benimaclet con el aeropuerto y reducir el tiempo de viaje en un 25%.",
+        "esperado": "Valencia inaugura la línea 10 de Metrovalencia, que unirá Benimaclet con el aeropuerto y reducirá el tiempo de viaje."
+      }
+    },
+    {
+      "fichero": "text2.txt",
+      "tipo": "resena",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "negativo",
+        "esperado": "negativo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 1,
+        "entidades_esperadas": 1,
+        "aciertos": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "resumen": {
+        "rouge1_precision": 0.2941,
+        "rouge1_recall": 0.3846,
+        "rouge1_f1": 0.3333,
+        "predicho": "Un cliente insatisfecho de La Trattoria del Centro critica que, tras pagar 80 euros, esperó más de una hora, la pasta llegó fría y el servicio fue pésimo, por lo que no volverá.",
+        "esperado": "Mala experiencia en La Trattoria del Centro: larga espera, comida fría y mal servicio; el cliente no piensa volver."
+      }
+    },
+    {
+      "fichero": "text3.txt",
+      "tipo": "email",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "neutral",
+        "esperado": "neutral",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 3,
+        "entidades_esperadas": 3,
+        "aciertos": 3,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "resumen": {
+        "rouge1_precision": 0.6667,
+        "rouge1_recall": 0.8889,
+        "rouge1_f1": 0.7619,
+        "predicho": "Laura Gómez, del departamento de compras de Talavera Soluciones, solicita un presupuesto actualizado para 50 portátiles antes del 15 de noviembre.",
+        "esperado": "El departamento de compras de Talavera Soluciones pide un presupuesto para 50 portátiles antes del 15 de noviembre."
+      }
+    },
+    {
+      "fichero": "text4.txt",
+      "tipo": "noticia",
+      "idioma": {
+        "predicho": "en",
+        "esperado": "en",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "neutral",
+        "esperado": "neutral",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 4,
+        "entidades_esperadas": 3,
+        "aciertos": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "resumen": {
+        "rouge1_precision": 0.4211,
+        "rouge1_recall": 0.7273,
+        "rouge1_f1": 0.5333,
+        "predicho": "Barcelona acogerá el próximo mes de marzo el Foro Europeo de Movilidad en la Fira de Montjuïc, reuniendo a más de 5.000 asistentes de 30 países para debatir sobre vehículos eléctricos y transporte público.",
+        "esperado": "Barcelona acogerá en marzo el European Mobility Forum, con más de 5.000 asistentes de 30 países en la Fira de Montjuïc."
+      }
+    },
+    {
+      "fichero": "text5.txt",
+      "tipo": "resena",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "positivo",
+        "esperado": "positivo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 2,
+        "entidades_esperadas": 2,
+        "aciertos": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "resumen": {
+        "rouge1_precision": 0.6154,
+        "rouge1_recall": 0.6667,
+        "rouge1_f1": 0.64,
+        "predicho": "La lectora está encantada con la novela contemporánea El viento sobre el lago de Clara Montes debido a sus increíbles personajes y su impactante final.",
+        "esperado": "Reseña muy positiva de la novela El viento sobre el lago, de Clara Montes, con personajes memorables y un final impactante."
+      }
+    },
+    {
+      "fichero": "text6.txt",
+      "tipo": "email",
+      "idioma": {
+        "predicho": "en",
+        "esperado": "en",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "negativo",
+        "esperado": "negativo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 1,
+        "entidades_esperadas": 2,
+        "aciertos": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "resumen": {
+        "rouge1_precision": 0.3529,
+        "rouge1_recall": 0.5455,
+        "rouge1_f1": 0.4286,
+        "predicho": "John Miller reclama un reembolso total por el pedido 45219, que llegó con tres días de retraso y dos artículos dañados, advirtiendo que disputará el cargo si no se resuelve.",
+        "esperado": "Cliente que reclama el pedido 45219: entrega con retraso y productos dañados, exige reembolso o contracargo."
+      }
+    },
+    {
+      "fichero": "text7.txt",
+      "tipo": "noticia",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "positivo",
+        "esperado": "positivo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 4,
+        "entidades_esperadas": 3,
+        "aciertos": 3,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571
+      },
+      "resumen": {
+        "rouge1_precision": 0.7368,
+        "rouge1_recall": 0.9333,
+        "rouge1_f1": 0.8235,
+        "predicho": "El equipo nacional de atletismo conquistó cuatro medallas en el Campeonato de Europa de pista cubierta en Apeldoorn, destacando la plusmarca nacional de Lucía Herrera en los 800 metros con 1:59.4 este sábado.",
+        "esperado": "El equipo nacional logra cuatro medallas en el Campeonato de Europa de pista cubierta de Apeldoorn, con plusmarca de Lucía Herrera en 800 metros."
+      }
+    },
+    {
+      "fichero": "text8.txt",
+      "tipo": "resena",
+      "idioma": {
+        "predicho": "en",
+        "esperado": "en",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "negativo",
+        "esperado": "negativo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 1,
+        "entidades_esperadas": 2,
+        "aciertos": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "resumen": {
+        "rouge1_precision": 0.2,
+        "rouge1_recall": 0.4,
+        "rouge1_f1": 0.2667,
+        "predicho": "Un usuario se queja de que compró los auriculares Nova X2 hace tres semanas, el auricular izquierdo ya no funciona y el servicio de atención al cliente tardó una semana en responder sin ofrecer ningún reemplazo.",
+        "esperado": "Reseña negativa de los auriculares Nova X2: avería en tres semanas y soporte que no ofrece sustitución."
+      }
+    },
+    {
+      "fichero": "text9.txt",
+      "tipo": "email",
+      "idioma": {
+        "predicho": "es",
+        "esperado": "es",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "positivo",
+        "esperado": "positivo",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 3,
+        "entidades_esperadas": 2,
+        "aciertos": 2,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "resumen": {
+        "rouge1_precision": 0.6364,
+        "rouge1_recall": 0.7,
+        "rouge1_f1": 0.6667,
+        "predicho": "Andrés Puente agradece al equipo de soporte de BitAlive la rápida solución del fallo en su cuenta ayer.",
+        "esperado": "Andrés Puente agradece al soporte de BitAlive haber resuelto rápido el fallo de su cuenta."
+      }
+    },
+    {
+      "fichero": "text10.txt",
+      "tipo": "noticia",
+      "idioma": {
+        "predicho": "en",
+        "esperado": "en",
+        "correcto": true
+      },
+      "sentimiento": {
+        "predicho": "neutral",
+        "esperado": "neutral",
+        "correcto": true
+      },
+      "entidades": {
+        "entidades_predichas": 2,
+        "entidades_esperadas": 2,
+        "aciertos": 1,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "resumen": {
+        "rouge1_precision": 0.5,
+        "rouge1_recall": 0.6923,
+        "rouge1_f1": 0.5806,
+        "predicho": "El ayuntamiento de Ámsterdam anunció un plan ciclista dotado con 18 millones de euros para añadir 12.000 plazas de aparcamiento para 2028 y reducir el desorden en las aceras del centro histórico.",
+        "esperado": "El ayuntamiento de Amsterdam anuncia un plan ciclista con 12.000 plazas nuevas antes de 2028 para despejar las aceras del centro."
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Variables de entorno (nunca subir la API key)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Resultados de ejecuciones
+results.json
+
+# Editores
+.vscode/
+.idea/

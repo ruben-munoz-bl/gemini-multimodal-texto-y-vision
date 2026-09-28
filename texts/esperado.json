@@ -1,0 +1,72 @@
+{
+  "text1.txt": {
+    "tipo": "noticia",
+    "idioma": "es",
+    "sentimiento": "neutral",
+    "entidades": ["Ayuntamiento de Valencia", "Valencia", "Metrovalencia", "Benimaclet", "María Campos"],
+    "resumen": "Valencia inaugura la línea 10 de Metrovalencia, que unirá Benimaclet con el aeropuerto y reducirá el tiempo de viaje."
+  },
+  "text2.txt": {
+    "tipo": "resena",
+    "idioma": "es",
+    "sentimiento": "negativo",
+    "entidades": ["La Trattoria del Centro"],
+    "resumen": "Mala experiencia en La Trattoria del Centro: larga espera, comida fría y mal servicio; el cliente no piensa volver."
+  },
+  "text3.txt": {
+    "tipo": "email",
+    "idioma": "es",
+    "sentimiento": "neutral",
+    "entidades": ["Talavera Soluciones", "Laura Gómez", "15 de noviembre"],
+    "resumen": "El departamento de compras de Talavera Soluciones pide un presupuesto para 50 portátiles antes del 15 de noviembre."
+  },
+  "text4.txt": {
+    "tipo": "noticia",
+    "idioma": "en",
+    "sentimiento": "neutral",
+    "entidades": ["Barcelona", "European Mobility Forum", "Fira de Montjuïc"],
+    "resumen": "Barcelona acogerá en marzo el European Mobility Forum, con más de 5.000 asistentes de 30 países en la Fira de Montjuïc."
+  },
+  "text5.txt": {
+    "tipo": "resena",
+    "idioma": "es",
+    "sentimiento": "positivo",
+    "entidades": ["El viento sobre el lago", "Clara Montes"],
+    "resumen": "Reseña muy positiva de la novela El viento sobre el lago, de Clara Montes, con personajes memorables y un final impactante."
+  },
+  "text6.txt": {
+    "tipo": "email",
+    "idioma": "en",
+    "sentimiento": "negativo",
+    "entidades": ["45219", "John Miller"],
+    "resumen": "Cliente que reclama el pedido 45219: entrega con retraso y productos dañados, exige reembolso o contracargo."
+  },
+  "text7.txt": {
+    "tipo": "noticia",
+    "idioma": "es",
+    "sentimiento": "positivo",
+    "entidades": ["Apeldoorn", "Lucía Herrera", "Campeonato de Europa"],
+    "resumen": "El equipo nacional logra cuatro medallas en el Campeonato de Europa de pista cubierta de Apeldoorn, con plusmarca de Lucía Herrera en 800 metros."
+  },
+  "text8.txt": {
+    "tipo": "resena",
+    "idioma": "en",
+    "sentimiento": "negativo",
+    "entidades": ["Nova X2", "Customer support"],
+    "resumen": "Reseña negativa de los auriculares Nova X2: avería en tres semanas y soporte que no ofrece sustitución."
+  },
+  "text9.txt": {
+    "tipo": "email",
+    "idioma": "es",
+    "sentimiento": "positivo",
+    "entidades": ["BitAlive", "Andrés Puente"],
+    "resumen": "Andrés Puente agradece al soporte de BitAlive haber resuelto rápido el fallo de su cuenta."
+  },
+  "text10.txt": {
+    "tipo": "noticia",
+    "idioma": "en",
+    "sentimiento": "neutral",
+    "entidades": ["Amsterdam", "City council of Amsterdam"],
+    "resumen": "El ayuntamiento de Amsterdam anuncia un plan ciclista con 12.000 plazas nuevas antes de 2028 para despejar las aceras del centro."
+  }
+}

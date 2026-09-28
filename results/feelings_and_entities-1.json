@@ -1,0 +1,94 @@
+{"results": [
+{
+  "sentimiento": "positivo",
+  "entidades": [
+    "película",
+    "actores",
+    "cine"
+  ]
+},
+{
+  "sentimiento": "negativo",
+  "entidades": [
+    {
+      "nombre": "customer support",
+      "tipo": "organización/servicio"
+    }
+  ]
+},
+{
+  "sentimiento": "negativo",
+  "entidades": ["restaurante", "comida", "camarero"]
+},
+{
+  "sentimiento": "positivo",
+  "entidades": ["paquete", "caja", "producto"]
+},
+{
+  "sentimiento": "positivo",
+  "entidades": [
+    {
+      "nombre": "libro",
+      "tipo": "producto"
+    },
+    {
+      "nombre": "personajes",
+      "tipo": "concepto"
+    }
+  ]
+},
+{
+  "sentimiento": "negativo",
+  "entidades": [
+    "aplicación",
+    "soporte técnico"
+  ]
+},
+{
+  "sentimiento": "positivo",
+  "entidades": [
+    {
+      "texto": "concert",
+      "tipo": "evento"
+    },
+    {
+      "texto": "band",
+      "tipo": "grupo musical"
+    }
+  ]
+},
+{
+  "sentimiento": "negativo",
+  "entidades": [
+    "hotel",
+    "staff",
+    "air conditioning"
+  ]
+},
+{
+  "sentimiento": "positivo",
+  "entidades": [
+    {
+      "texto": "report",
+      "categoria": "documento"
+    },
+    {
+      "texto": "last quarter",
+      "categoria": "fecha"
+    },
+    {
+      "texto": "data",
+      "categoria": "información"
+    }
+  ]
+},
+{
+  "sentimiento": "positivo",
+  "entidades": [
+    "phone",
+    "camera",
+    "battery",
+    "setup"
+  ]
+}
+]}
