@@ -1,2 +1,7 @@
 google-genai
 python-dotenv
+
+# Notebook de análisis de resultados (analisis_resultados.ipynb)
+jupyter
+pandas
+matplotlib

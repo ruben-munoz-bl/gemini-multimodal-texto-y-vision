@@ -88,6 +88,7 @@ contra una verdad de referencia.
 ├── .env.example        # Plantilla de ejemplo sin datos reales
 ├── gemini-text.py      # Práctica 1: idioma + entidades + sentimiento + resumen + informe
 ├── gemini-images.py    # Práctica 2: OCR + descripción + escenas + objetos + informe
+├── analisis_resultados.ipynb  # Notebook Jupyter con el análisis de resultados
 ├── images/             # Archivos de test: 4 imágenes (*.jpg) + 1 PDF
 │   └── esperado.json   # Verdad de referencia de los archivos
 ├── texts/              # 10 textos de entrada (*.txt)
@@ -141,6 +142,17 @@ reutiliza las respuestas guardadas en `results/parcial_imagenes.json`.
 
 > Si añades, borras o renombras archivos en `images/`, actualiza también las entradas
 > correspondientes de `images/esperado.json`: sin referencia no se puede calcular su precisión.
+
+### Ver el análisis de resultados en Jupyter
+
+```bash
+jupyter notebook analisis_resultados.ipynb
+```
+
+El notebook **no llama a la API**: carga `results/informe.json` e
+`results/informe_imagenes.json` y presenta en tablas (pandas) y con gráfico opcional
+(matplotlib) el resumen por tarea, los rankings, el detalle por archivo, un ejemplo de
+respuesta JSON estructurada y las conclusiones.
 
 ### Salida
 
