@@ -1,0 +1,37 @@
+{
+  "image-1.jpg": {
+    "tipo": "interior",
+    "escena": "interior",
+    "texto_ocr": "",
+    "descripcion": "Tres gatitos pequeños de pelaje crema y gris acurrucados sobre una manta blanca y suave, con una tela morada detrás y suelo de madera claro.",
+    "objetos": ["gatitos", "manta", "cama", "tela morada"]
+  },
+  "image-2.jpg": {
+    "tipo": "urbana",
+    "escena": "urbana",
+    "texto_ocr": "47 Pg. Marítim 9690 DLP",
+    "descripcion": "Calle céntrica flanqueada por edificios altos, con semáforo en rojo, tráfico detenido, obra protegida con vallas amarillas y una montaña al fondo.",
+    "objetos": ["edificios", "semáforo", "coche", "autobús", "persona", "barrera"]
+  },
+  "image-3.jpg": {
+    "tipo": "producto",
+    "escena": "producto",
+    "texto_ocr": "",
+    "descripcion": "Bote de plástico transparente con etiqueta blanca tumbado sobre fondo blanco, del que salen varias cápsulas negras.",
+    "objetos": ["bote", "cápsulas", "etiqueta"]
+  },
+  "image-4.jpg": {
+    "tipo": "naturaleza",
+    "escena": "naturaleza",
+    "texto_ocr": "",
+    "descripcion": "Dos cisnes blancos nadando en un lago de agua turquesa con reflejos dorados de la luz del sol.",
+    "objetos": ["cisnes", "agua"]
+  },
+  "pdf-1.pdf": {
+    "tipo": "pdf",
+    "escena": "documento",
+    "texto_ocr": "Dossier de supòsits - Disseny de Base de Dades Rubén Muñoz Blanco Cicle: CFGS 1DAM Profesors: Ana Bono Marin i Maria Roser Agramunt Marques CASOS BÀSICS Supòsit 0 Exemple) Disseny Conceptual Disseny Lògic Relacional Taules amb dades representavies Supòsit 1| Biblioteca Digital Disseny Conceptual Disseny Lògic Relacional Taules amb dades representavies Supòsit 2 | Cinema Disseny Conceptual Disseny Lògic Relacional Taules amb dades representavies Supòsit 3 | Cursos en línea Disseny Conceptual Disseny Lògic Relacional Taules amb dades representavies Supòsit 4 | Projectes Disseny Conceptual Disseny Lògic Relacional Taules amb dades representatives Supòsit 5 | Productes-consumidor Disseny Conceptual Dossier de supòsits - Disseny de Base de Dades 1",
+    "descripcion": "Dossier de supuestos de Disseny de Base de Dades (1DAM) firmado por Rubén Muñoz Blanco: portada con índice de casos básicos (biblioteca digital, cinema, cursos en línea, projectes y productes-consumidor) y secciones de diseño conceptual y diseño lógico relacional.",
+    "objetos": ["portada", "índice", "tabla", "diagrama"]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "modelo": "gemini-3.5-flash-lite",
+  "metricas": {
+    "imagenes_totales": 5,
+    "imagenes_evaluadas": 5,
+    "ocr": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "aciertos": 5,
+      "evaluados": 5
+    },
+    "descripcion": {
+      "rouge1_precision": 0.4081,
+      "rouge1_recall": 0.4661,
+      "rouge1_f1": 0.4321,
+      "evaluados": 5
+    },
+    "escena": {
+      "aciertos": 5,
+      "evaluados": 5,
+      "precision": 1.0
+    },
+    "objetos": {
+      "precision": 0.75,
+      "recall": 0.6667,
+      "f1": 0.6895,
+      "evaluados": 5
+    },
+    "por_tipo": {
+      "interior": {
+        "imagenes": 1,
+        "ocr_f1": 1.0,
+        "descripcion_rouge1": 0.6875,
+        "escena_precision": 1.0,
+        "objetos_f1": 0.3333
+      },
+      "urbana": {
+        "imagenes": 1,
+        "ocr_f1": 1.0,
+        "descripcion_rouge1": 0.3226,
+        "escena_precision": 1.0,
+        "objetos_f1": 0.8571
+      },
+      "producto": {
+        "imagenes": 1,
+        "ocr_f1": 1.0,
+        "descripcion_rouge1": 0.3226,
+        "escena_precision": 1.0,
+        "objetos_f1": 0.4
+      },
+      "naturaleza": {
+        "imagenes": 1,
+        "ocr_f1": 1.0,
+        "descripcion_rouge1": 0.4348,
+        "escena_precision": 1.0,
+        "objetos_f1": 1.0
+      },
+      "pdf": {
+        "imagenes": 1,
+        "ocr_f1": 1.0,
+        "descripcion_rouge1": 0.3929,
+        "escena_precision": 1.0,
+        "objetos_f1": 0.8571
+      }
+    }
+  },
+  "resultados": [
+    {
+      "fichero": "image-1.jpg",
+      "ocr": {
+        "texto": ""
+      },
+      "descripcion": {
+        "descripcion": "Tres pequeños gatitos de pelaje claro y gris están acurrucados juntos sobre una manta blanca y suave, con una tela de color morado de fondo.",
+        "elementos": [
+          "gatitos",
+          "manta blanca",
+          "tela morada",
+          "suelo de madera"
+        ]
+      },
+      "escena": {
+        "escena": "interior",
+        "confianza": 0.98
+      },
+      "objetos": {
+        "objetos": [
+          {
+            "objeto": "gato",
+            "categoria": "ANIMAL"
+          },
+          {
+            "objeto": "manta",
+            "categoria": "MOBILIARIO"
+          }
+        ]
+      }
+    },
+    {
+      "fichero": "image-2.jpg",
+      "ocr": {
+        "texto": "47 Pg. Maritim\n9690 DLP"
+      },
+      "descripcion": {
+        "descripcion": "Vista de una calle urbana flanqueada por edificios altos de arquitectura clásica con tráfico de vehículos y peatones en primer plano, bajo un cielo despejado.",
+        "elementos": [
+          "edificios",
+          "calle",
+          "vehículos",
+          "peatones",
+          "semáforo",
+          "barreras de obra",
+          "cielo"
+        ]
+      },
+      "escena": {
+        "escena": "urbana",
+        "confianza": 1.0
+      },
+      "objetos": {
+        "objetos": [
+          {
+            "objeto": "persona",
+            "categoria": "PERSONA"
+          },
+          {
+            "objeto": "coche",
+            "categoria": "VEHICULO"
+          },
+          {
+            "objeto": "motocicleta",
+            "categoria": "VEHICULO"
+          },
+          {
+            "objeto": "autobús",
+            "categoria": "VEHICULO"
+          },
+          {
+            "objeto": "edificio",
+            "categoria": "EDIFICIO"
+          },
+          {
+            "objeto": "semáforo",
+            "categoria": "OBJETO"
+          },
+          {
+            "objeto": "valla",
+            "categoria": "MOBILIARIO"
+          },
+          {
+            "objeto": "barrera",
+            "categoria": "MOBILIARIO"
+          }
+        ]
+      }
+    },
+    {
+      "fichero": "image-3.jpg",
+      "ocr": {
+        "texto": ""
+      },
+      "descripcion": {
+        "descripcion": "Un frasco de plástico transparente con una etiqueta blanca y vacía descansa de lado sobre una superficie blanca, mientras varias gomitas o pastillas oscuras y redondas se derraman desde su apertura.",
+        "elementos": [
+          "frasco de plástico",
+          "etiqueta blanca",
+          "pastillas oscuras",
+          "superficie blanca"
+        ]
+      },
+      "escena": {
+        "escena": "producto",
+        "confianza": 1.0
+      },
+      "objetos": {
+        "objetos": [
+          {
+            "objeto": "frasco",
+            "categoria": "OBJETO"
+          },
+          {
+            "objeto": "píldoras",
+            "categoria": "OBJETO"
+          }
+        ]
+      }
+    },
+    {
+      "fichero": "image-4.jpg",
+      "ocr": {
+        "texto": ""
+      },
+      "descripcion": {
+        "descripcion": "Dos cisnes blancos nadan en un lago con agua de tonos azulados y turquesas, iluminados por una luz cálida en un entorno natural.",
+        "elementos": [
+          "cisnes blancos",
+          "agua",
+          "lago",
+          "reflejos",
+          "gotas de agua"
+        ]
+      },
+      "escena": {
+        "escena": "naturaleza",
+        "confianza": 0.99
+      },
+      "objetos": {
+        "objetos": [
+          {
+            "objeto": "cisne",
+            "categoria": "ANIMAL"
+          },
+          {
+            "objeto": "agua",
+            "categoria": "OBJETO"
+          }
+        ]
+      }
+    },
+    {
+      "fichero": "pdf-1.pdf",
+      "ocr": {
+        "texto": "Dossier de supòsits - Disseny de Base de\nDades\nRubén Muñoz Blanco\nCicle: CFGS 1DAM\nProfesors: Ana Bono Marin i Maria Roser Agramunt Marques\nCASOS BÀSICS\nSupòsit 0 (Exemple)\nDisseny Conceptual\nDisseny Lògic Relacional\nTaules amb dades representavies\nSupòsit 1| Biblioteca Digital\nDisseny Conceptual\nDisseny Lògic Relacional\nTaules amb dades representavies\nSupòsit 2 | Cinema\nDisseny Conceptual\nDisseny Lògic Relacional\nTaules amb dades representavies\nSupòsit 3 | Cursos en línea\nDisseny Conceptual\nDisseny Lògic Relacional\nTaules amb dades representavies\nSupòsit 4 | Projectes\nDisseny Conceptual\nDisseny Lògic Relacional\nTaules amb dades representatives\nSupòsit 5 | Productes-consumidor\nDisseny Conceptual\nDossier de supòsits - Disseny de Base de Dades 1"
+      },
+      "descripcion": {
+        "descripcion": "El documento es un dossier académico titulado 'Dossier de supòsits - Disseny de Base de Dades', organizado en diferentes supuestos prácticos y casos avanzados que incluyen descripciones de entidades, diagramas de diseño conceptual, esquemas de diseño lógico relacional y tablas de datos representativos.",
+        "elementos": [
+          "título del documento",
+          "texto explicativo",
+          "diagramas de diseño conceptual",
+          "esquemas lógicos relacionales",
+          "tablas con datos representativos",
+          "reglas de integridad"
+        ]
+      },
+      "escena": {
+        "escena": "documento",
+        "confianza": 1.0
+      },
+      "objetos": {
+        "objetos": [
+          {
+            "objeto": "portada",
+            "categoria": "TEXTO"
+          },
+          {
+            "objeto": "diagrama",
+            "categoria": "OTRO"
+          },
+          {
+            "objeto": "tabla",
+            "categoria": "TEXTO"
+          }
+        ]
+      }
+    }
+  ]
+}
